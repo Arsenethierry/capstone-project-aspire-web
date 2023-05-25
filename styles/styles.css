@@ -92,38 +92,17 @@ body {
   color: gray;
 }
 
-.more-btn>p {
+.more-btn > p {
   margin-bottom: 10px;
 }
 
-.more-btn>p>i {
+.more-btn > p > i {
   color: rgb(255, 64, 0);
   padding-left: 4px;
 }
 
 .underline {
   text-decoration: underline;
-}
-
-.summit-sub {
-  background-color: rgba(255, 64, 0, 0.573);
-  height: 30vh;
-}
-
-.summit-one {
-  background-image: url("images/bp-s-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
-}
-
-.summit-two {
-  background-image: url("images/bp-s-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
 }
 
 .partners {
@@ -160,7 +139,6 @@ body {
   display: flex;
 }
 
-
 .summit-sub {
   background-color: rgba(255, 64, 0, 0.573);
   height: 30vh;
@@ -180,34 +158,4 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30vh;
-}
-
-.partners {
-  background-image: url("images/speaker-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.partner1,
-.partner2,
-.partner3,
-.partner4,
-.partner5 {
-  font-size: 30px;
-  font-weight: 700;
-  color: aquamarine;
-}
-
-.partner1 {
-  color: rgba(255, 64, 0, 0.573);
-}
-
-.partner3 {
-  color: rgba(255, 64, 0, 0.573);
-}
-
-.footer-section {
-  display: flex;
 }
