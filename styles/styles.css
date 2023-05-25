@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  font-family: 'Lato';
 }
 
 .sub-nav,
@@ -91,9 +92,11 @@ body {
 
 #btn-nav {
   background-color: #fff;
-  color: rgb(255, 64, 0);
-  border: 4px solid aquamarine;
+  color: #ec4327;
+  border: 4px solid #Ec4327;
   text-decoration: none;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
 }
 
 #btn-nav:hover {
@@ -149,6 +152,7 @@ body {
   background-color: rgba(255, 64, 0, 0.573);
   height: 40vh;
   padding-top: 20%;
+  padding: 20px;
 }
 
 .summit-one {
@@ -199,6 +203,13 @@ body {
 
 .footer-section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4em;
+}
+
+.footer-p {
+  color: #fff;
 }
 
 .mobile-nav {
@@ -241,6 +252,16 @@ body {
 .summit-sub:hover {
   opacity: 0;
   cursor: pointer;
+}
+
+.past-summit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer {
+  background: #2E2E2E;
 }
 
 @media only screen and (min-width: 768px) {
@@ -348,10 +369,24 @@ body {
 
   .past-summit {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
   }
 
   .summit-card {
     width: 47%;
+  }
+
+  .container img {
+    max-width: 15rem;
+  }
+
+  .summit-two {
+    width: 400px
+  }
+
+  .summit-one {
+    width: 400px
   }
 }

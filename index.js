@@ -25,37 +25,37 @@ const speakers = [
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
   {
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
   {
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
   {
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
   {
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
   {
     name: 'Ariel Camus',
     about: 'Founder & CEO of Microverse, a school for international software developers that is free until you get a job.',
     quote: 'Ariel Camus has 2 current jobs as Founder & CEO at Microverse and Co-founder and CEO at TouristEye',
-    image: 'images/speaker1.jpg',
+    image: 'images/speaker1.png',
   },
 ];
 
@@ -76,22 +76,22 @@ const programs = [
   {
     title: 'Funding for Talents',
     message: 'How to Break into the Tech Industry',
-    icon: 'images/conference.png',
+    icon: 'images/icon.png',
   },
   {
     title: 'Expert Mentorship',
     message: 'How to Break into the Tech Industry',
-    icon: 'images/conference.png',
+    icon: 'images/icon2.png',
   },
   {
     title: 'Career Exploration',
     message: 'How to Break into the Tech Industry',
-    icon: 'images/conference.png',
+    icon: 'images/icon3.png',
   },
   {
     title: 'Expert Mentorship',
     message: 'How to Break into the Tech Industry',
-    icon: 'images/conference.png',
+    icon: 'images/icon4.png',
   },
 ];
 
