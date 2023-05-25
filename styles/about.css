@@ -1,0 +1,28 @@
+
+.summit-sub {
+    background-color: rgba(255, 64, 0, 0.573);
+    height: 30vh;
+  }
+  
+  .summit-one {
+    background-image: url("./../images/bg-event1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .summit-two {
+    background-image: url("./../images/bg-event2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .partners {
+    background-image: url("images/speaker-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
