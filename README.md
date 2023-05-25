@@ -85,7 +85,7 @@ This project is the Microverse first module capstone which will we help young pe
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/Arsenethierry/capstone-project-aspire-web)
+- [Live Demo Link](https://arsenethierry.github.io/capstone-project-aspire-web/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +178,9 @@ If you like this project please follow me on github & twitter and also connect o
 <!-- ACKNOWLEDGEMENTS -->
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for this capstone practice project.
+- I would like to thank Microverse for this capstone practice project.
+
+- I would like to thank the figma design [Cindy Shin](https://www.behance.net/adagio07) for the original design of this project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FAQ (optional) -->
 
