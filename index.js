@@ -60,11 +60,11 @@ const speakers = [
 ];
 
 document.querySelector('.speaker-holder').innerHTML = speakers.map((speak) => `
-<div class="container speaker-card mt-4">
+<div class="col-12 col-md-6 speaker-card mt-4">
 <div class="image-holder">
     <img src=${speak.image} width="120" height="90%" alt="speaker 1">
 </div>
-<div class="speaker-info pl-4">
+<div class="speaker-info pl-4 pt-4">
     <h4 class="speaker-name">${speak.name}</h4>
     <i class="speaker-about">${speak.about}</i>
     <hr class="line-breaker">
@@ -98,7 +98,7 @@ const programs = [
 document.querySelector('.program-holder').innerHTML = programs.map((program) => `
     <div class="container p-2 ">
         <div class="d-flex align-items-center program-card p-2">
-            <img src=${program.icon} width="50" height="50" alt="lecture">
+            <img src=${program.icon} width="50" height="50" alt="program">
             <h4 class="program-title px-2">${program.title}</h4>
             <span class="px-1 text-white">${program.message}</span>
         </div>

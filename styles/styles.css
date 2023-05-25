@@ -1,7 +1,49 @@
-@import url('./header.css');
-
 body {
   width: 100%;
+}
+
+/* .fixed-top-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+} */
+.sub-nav,
+.desktop-nav,
+.program-link,
+.closing-text,
+.more-message {
+  display: none;
+}
+
+#top-header {
+  background-color: rgba(227, 224, 224, 0.9);
+  height: 10vh;
+}
+
+.top-bg {
+  background-image: url("../images/white-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-icon {
+  font-size: 30px;
+}
+
+.hero {
+  color: rgb(255, 64, 0);
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.message-p {
+  background-color: rgb(194, 194, 194, 0.4);
+  font-weight: 600;
 }
 
 .message-time {
@@ -47,6 +89,12 @@ body {
   text-decoration: none;
 }
 
+.join-btn:hover {
+  background-color: #fff;
+  color: rgb(255, 64, 0);
+  text-decoration: none;
+}
+
 #btn-nav {
   background-color: #fff;
   color: rgb(255, 64, 0);
@@ -54,13 +102,11 @@ body {
   text-decoration: none;
 }
 
-.image-holder {
-  background-image: url("images/necklace.png");
-  background-size: 30%;
-  background-position: 0 10px;
-  background-repeat: no-repeat;
-  padding-top: 20px;
-  padding-left: 15px;
+#btn-nav:hover {
+  background-color: rgb(255, 64, 0);
+  color: #fff;
+  border: 4px solid aquamarine;
+  text-decoration: none;
 }
 
 .speaker-card {
@@ -105,6 +151,28 @@ body {
   text-decoration: underline;
 }
 
+.summit-sub {
+  background-color: rgba(255, 64, 0, 0.573);
+  height: 40vh;
+  padding-top: 20%;
+}
+
+.summit-one {
+  background-image: url("../images/bg-event1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.summit-two {
+  background-image: url("../images/bg-event2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
 .partners {
   background-image: url("images/speaker-bg.jpg");
   background-position: center;
@@ -128,34 +196,168 @@ body {
 }
 
 .partner1 {
-  color: rgba(255, 64, 0, 0.573);
+  color: rgba(255, 64, 0, 0.849);
 }
 
 .partner3 {
-  color: rgba(255, 64, 0, 0.573);
+  color: rgba(255, 64, 0, 0.854);
 }
 
 .footer-section {
   display: flex;
 }
 
-.summit-sub {
-  background-color: rgba(255, 64, 0, 0.573);
-  height: 30vh;
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(255, 64, 0, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: none;
 }
 
-.summit-one {
-  background-image: url("./../images/bg-event1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+.menu-list-mobile > li > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
 }
 
-.summit-two {
-  background-image: url("./../images/bg-event2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list-mobile > li {
+  list-style-type: none;
+}
+
+.close-button {
+  color: #fff;
+  font-size: 34px;
+  padding: 0 7px;
+  float: right;
+  margin-left: 85%;
+}
+
+.summit-sub:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .sub-nav {
+    display: flex;
+  }
+
+  .sub-nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .sub-nav-item {
+    color: #fff;
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .sub-nav-item:hover {
+    color: aquamarine;
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  #menu-icon,
+  .join-btn,
+  .more-btn,
+  .about-greetings {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: contents;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+  }
+
+  .nav-list > li {
+    list-style: none;
+    padding-left: 30px;
+  }
+
+  .nav-list-item {
+    color: black;
+    text-decoration: none;
+  }
+
+  .nav-list-item:hover {
+    color: rgb(255, 64, 0);
+    text-decoration: none;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .message-p {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .program-holder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-link {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    padding-top: 30px;
+  }
+
+  .closing-text,
+  .more-message {
+    display: block;
+  }
+
+  .about-message-p {
+    margin-left: 20%;
+  }
+
+  .bp-logo-main {
+    width: 60%;
+  }
+
+  .past-summit {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .summit-card {
+    width: 47%;
+  }
 }
